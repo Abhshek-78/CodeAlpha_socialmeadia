@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="/static/registerdeco.css">
+</head>
+<body>
+    <div class="logo"><h2>friendlyChat</h2>
+        <div class="register"><a href="/">Login</a></div>
+    </div>
+    <div class="container">
+        <h1>Register Page</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter username">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter email">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password">
+            <br><br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" placeholder="Enter confirm password">
+            <br><br>
+            <button type="submit" id="register-btn">Register</button>
+        </form>
+        <p id="error-msg"></p>
+    </div>
+
+    <script src="/static/ registerscript.js"></script>
+</body>
+</html>
